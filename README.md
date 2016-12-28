@@ -60,3 +60,109 @@
 	</body>
 </html>
 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Even Fancier Fonts</title>
+	</head>
+	<body>
+		<p>Much of this is regular text, but some of it is <span>fancy</span>!
+		We can use our <span>newly fancified font</span> to add some
+		<span>flair</span> to our website. It'd be a <span>royal pain</span> 
+		to make each of these span tags <span>fancy</span> individually,
+		but it's a cinch with <span>CSS</span>!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			p {
+				color: purple;
+			}
+		</style>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>Check it out! I'm purple!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+		
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<p>I want to be SIZE 44 font!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+		
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<p>I want to be SIZE 44 font!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>You're about to style this paragraph with CSS all on your own!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>You're about to style this paragraph with CSS all on your own!</p>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>I Know Kung Fu (er, CSS)</title>
+	</head>
+	<body>
+		<div>
+			<h3>What's CSS for?</h3>
+			<p>CSS is for styling HTML pages!</p>
+			<h3>Why use it?</h3>
+			<p>It makes webpages look <span>really rad</span>.</p>
+			<h3>What do I think of it?</h3>
+			<p>It's awesome!</p>
+		</div>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+		<h3>Recent Projects</h3>
+		<p>I've started learning HTML and CSS. I hope to create my own website soon!</p>
+	</body>
+</html>
