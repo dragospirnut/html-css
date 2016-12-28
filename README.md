@@ -4000,3 +4000,760 @@ p {
   list-style: none;
   
 }
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <link rel='stylesheet' href='style.css'/>
+  </head>
+  <body>
+
+    <div class="jumbotron"> 
+      
+      
+    		<div class="container"> 
+      			<div class="header"> 
+          			<div class="row"> 
+              				<div class="col-md-3"> 
+                  
+                        <img class="logo" src="https://s3.amazonaws.com/codecademy-content/projects/bass/logo.svg" width="106" height="76"/>
+                  
+                  </div>
+                  		<div class="col-md-9"> 
+                  
+                  <ul class="pull-right">
+                    
+                    <li><a href="www.aulin.com">Features</a> </li>
+                    <li><a class="btn btn-default" href="www.shop.ro">Download </a> </li>
+                    
+                    </ul>
+                  
+                  </div>
+              
+              
+              
+              </div>
+              
+              
+          
+          </div>
+      
+      
+      </div>
+    
+    <div class="main">
+      
+      <div class="row"> 
+        
+        <div class="col-md-7"> 
+        
+        <h1>Turn Up the Bass </h1>
+          <p>From the newest releases to classic albums, we have the best music for you to enjoy. </p>
+        
+        </div>
+        
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="supporting-1"> 
+    <div class="container"> 
+      
+      <div class="row"> 
+      
+      <div class="col-md-6"> 
+        
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/bass/you.svg" width="450" height="300"/>
+        
+        </div>
+      <div class="col-md-6">
+        
+        <h2>Music Just for You</h2>
+        <p>Listen to your favorite artists and albums, and make playlists of your favorite songs. Get recommendations based on your tastes to discover new music. </p>
+        </div>
+      </div>
+      
+      
+      </div>
+         
+      
+    </div>
+    <div class="supporting-2"> 
+    
+      <div class="row"> 
+      
+      <div class="col-md-6"> 
+        
+        <h2>Listen Everywhere </h2>
+        <p>Take your music with you everywhere you go. Listen for free for free on any device - mobile, tablet, and your computer. </p>
+        
+        </div>
+      <div class="col-md-6">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/bass/everywhere.svg" width="450" height="300"/>
+        
+        </div>
+      </div>
+    
+    </div>
+    <div class="supporting-3">
+    
+    <div class="row"> 
+      
+      <div class="col-md-6">
+      
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/bass/connect.svg" width="450" height="300"/>
+      
+      </div>
+      <div class="col-md-6">
+        
+        <h2>Connect with Others </h2>
+        <p>Find the right songs for the right occassions. Let your friends know what you're listening to, and connect with others who share the music you love. </p>
+      </div>
+      </div>
+    
+    </div>
+    <div class="supporting-4"> 
+    <div class="container"> </div>
+    <h2>Try it now </h2>
+     <img src="https://s3.amazonaws.com/codecademy-content/projects/bass/app-store.png"/> 
+     <img src="https://s3.amazonaws.com/codecademy-content/projects/bass/google-play.png"/>
+    </div>
+    
+    <div class="footer"> 
+    <div class="container"> 
+      
+      <div class="col-md-2">
+      <h3>BASS </h3>
+        <ul> 
+        <li><a href="www.me.com">Install</a> </li>
+          <li><a href="www.me.com">Mobile</a></li>
+        
+        </ul>
+        
+        
+        
+      </div>
+      <div class="col-md-2"> 
+      <h3>About</h3>
+        
+        <ul>
+          
+          <li><a href="www.me.com">Blog</a></li>
+          <li><a href="www.me.com">Team</a></li>
+          <li><a hre="www.me.com">Jobs</a></li>
+          
+          </ul>
+      
+      
+      </div>
+      <div class="col-md-2">
+      <h3>Support </h3>
+        
+        <ul>
+          
+          <li><a href="www.me.com">Help Center</a> </li>
+          <li><a href="www.me.com">Get Started</a></li>
+          <li><a href="www.me.com">Contact us</a></li>
+        
+        </ul>
+        
+      
+      </div>
+      <div class="col-md-2">
+      <h3>Community </h3>
+      <ul>
+        
+        <li><a href="www.me.com">Facebook</a> </li>
+        <li><a href="www.me.com">Twitter</a> </li>
+        <li><a href="www.me.com">Google+</a> </li>
+        
+        </ul>
+      
+      </div>
+      </div>
+    
+    </div>
+    
+  </body>
+</html>
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header .btn-default {
+  
+  border: 0px;
+  border-radius: 0px;
+  padding: 8px 30px;
+  background-color:#ff003d;
+  
+}
+
+li {
+  
+  display: inline;
+  margin: 20px;
+}
+
+.header a {
+  
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.jumbotron {
+  
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg");
+    height: 800px;
+}
+
+.main {
+  
+  color: white;
+}
+
+.jumbotron p {
+  
+  font-size: 21px;
+  
+}
+
+img {
+  
+  vertical-align: middle;
+}
+
+.supporting-4 {
+  
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg");
+  height: 400px;
+  color: white;
+}
+
+.footer {
+  
+  text-align: center;
+  background-color: black;
+}
+
+a:focus {
+  
+  outline: thin-dotted;
+  
+  }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;     
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <link rel='stylesheet' href='style.css'/>
+  </head>
+  <body>
+
+    <div class="header"> 
+    	<div class="container"> 
+      
+      <div class="row"> 
+        
+        <div class="col-md-4"> 
+        
+        <h1 style="color:white">ARMANDO PEREZ </h1>
+          
+        </div>
+        <div class="pull-right"> 
+        
+        <ul class="nav nav-pills">
+        
+          <li class="active"><a href="www.me.com">All</a> </li>
+          <li><a href="www.google.co.uk">Consumer</a></li>
+          <li><a href="www.me.com">Mobile</a></li>
+          <li><a href="www.me.com">Commerce</a></li>
+          <li><a href="www.thames.com">Enterprise</a></li>
+          
+          </ul>
+        
+        </div>
+        
+        </div>
+       
+      
+      </div>
+    
+    
+    </div>
+    
+    <div class="main"> 
+    <div class="container"> 
+      
+      <div class="row"> 
+      
+      <div class="col-md-4">
+        
+        <a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p1.jpg"/> </a>
+        
+        </div>
+        <div class="col-md-4"> 
+        
+        <a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p2.jpg"/> </a>
+        
+        </div>
+         		<div class="col-md-4"> 
+        
+        <a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p3.jpg"> </a>
+        
+        </div>
+      
+      </div>
+      <div class="row"> 
+      	<div class="col-md-4">
+        
+        	<a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p4.jpg"> </a>
+        </div>
+        		<div class="col-md-4"> 
+        			<a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p5.jpg"> </a>
+        
+        </div>
+        				<div class="col-md-4">
+        						<a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p6.jpg"> </a>
+        
+        
+        </div>
+      
+      
+      </div>
+      <div class="row"> 
+      
+      <div class="col-md-4"> 
+        
+        <a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p7.jpg"> </a>
+        
+        </div>
+        	<div class="col-md-4"> 
+        
+        <a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p8.jpg"> </a>
+        
+        </div>
+        			<div class="col-md-4"> 
+        
+        <a href="www.me.com"><img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p9.jpg"> </a>
+        
+        </div>
+      
+      </div>      
+      </div>
+    
+    
+    
+    </div>
+    
+    <div class="footer"> 
+    		<div class="container"> 
+      
+      <div class="row"> 
+          
+          
+          <div class="col-md-4"> 
+        
+        <ul> 
+            
+            <li>email </li>
+          	<li>linkedin </li>
+          	<li>twitter </li>
+          	<li>blog </li>
+            
+            </ul>
+        
+        </div>
+					<div class="pull-right"> 
+        
+            <p>2014 </p>
+        
+        </div>	          
+          </div>
+      
+      </div>
+    
+    
+    </div>
+    
+    
+  </body>
+</html>
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg");
+  
+}
+
+.header li.active a {
+  
+  background-color: red;
+  color: white;
+  padding: 10px 40px; 
+ 
+  
+}
+
+a:focus {
+  
+  outline: thin dotted;
+  text-decoration: none;
+  background-color:#eee;
+  
+  
+}
+
+.header li a {
+  
+  color: red;
+  
+}
+
+.col-md-4 {
+  
+  min-height: 1px;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 33.33333333%;
+}
+
+.footer li {
+  
+  display: inline;
+	margin-right: 40px;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <link rel='stylesheet' href='style.css'/>
+  </head>
+  <body>
+
+    <div class="header"> 
+    
+    <div class="container">
+      
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/newsroom/logo.svg" width="210" height="50"/>
+      <div class="search">
+      <form class="search-form">
+        <input type="text" placeholder="Search NewsRoom">
+        <button type="submit" class="search-btn">Search </button>
+      
+        </form>
+        </div>
+      </div>
+    
+    </div>
+    <div class="menu">
+    		<div class="container"> 
+      
+      <ul class="nav"> 
+        
+        <li class="active"><a href="www.me.com">Top Stories</a> </li>
+        <li><a href="www.me.com">World</a> </li>
+        <li><a href="www.me.com">Business</a></li>
+        <li><a href="www.me.com">Technology</a></li>
+        <li><a href="www.me.com">Entertainment</a></li>
+        <li><a href="www.me.com">Sports</a></li>
+        <li><a href="www.me.com">Science</a></li>
+        <li><a href="www.me.com">Health</a></li>
+        
+        </ul>
+      
+      
+      </div>
+      
+    
+    </div>
+    <div class="main"> 
+    
+    <div class="container"> 
+      
+      <div class="row"> 
+      
+      <div class="col-md-5"> 
+        
+        <p>December 7, 2016 </p>
+        <h1><span>Introducing Bass</span> </h1>
+        	<p>A new app by the creators of Shutterbugg that lets you enjoy your favorite music everywhere you go. </p>
+        </div>
+      
+      
+      </div>
+      
+      
+      
+      </div>
+    
+    </div>
+    
+    <div class="supporting"> 
+    
+    <div class="container"> 
+      
+      <div class="row"> 
+      
+      <div class="col-md-8"> 
+        
+        <h1>Latest News </h1>
+        <p>November 5, 2014 </p>
+        
+        <h1>Introducing Excursion</h1>
+        <p> December 7, 2016</p>
+        
+        <h1>Improvements to Shutterbugg Arrive </h1>
+        <p>December 8,2016</p>
+        
+        </div>
+      <div class="col-md-4 sidebar">
+        
+        <p>December 8-12, 2016 </p>
+        <h1>Upcoming Events</h1>
+        
+        <p>December 2,2016 </p>
+        <h1>LL Retrospective</h1>
+        
+        <p>December 5,2016 </p>
+        <h1>M.O.N.E.Y. Launch Event </h1>
+        
+        </div>
+        
+        
+      </div>
+      
+      <div class="row"> 
+      
+      <div class="col-md-12">
+        
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/newsroom/ad.jpg"/>
+        
+        </div>
+      
+      </div>
+      </div>
+    
+    </div>
+    <div class="footer"> 
+    
+    <div class="container"> 
+      
+      <ul> 
+      
+      <li>About </li>  
+      <li>Terms</li>
+        <li>Send Feeback</li>
+        
+        
+        
+      </ul>
+      
+      <p style="color: white;">Copyright 2016</p>
+      </div>
+    
+    </div>
+    
+  </body>
+</html>
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  
+  
+  background-color: #000;
+  
+    
+  }
+.header img {
+  
+  
+  margin-right: 1000px;
+  
+}
+
+img {
+  
+  vertical-align: middle;
+  border: 0;
+}
+
+.search-btn {
+  
+  background: transparent;
+  color: white;
+  border: 0px;
+  border-bottom: 1px solid #1a77ff;
+  
+  }
+
+
+
+.search-form input {
+  
+  background: transparent;
+  border: 0px;
+  color: white;
+  border-bottom: 1px solid white;
+  width: 240px;
+  height: 30px;
+  
+}
+
+input:hover {
+  
+   border-bottom: 1px solid #1a77ff;
+ 
+}
+
+.menu ul.nav li {
+  line-height: 40px;
+  display: inline-block;
+  
+  
+}
+
+.search {
+  
+  text-align: right;
+  margin-bottom: 10px;
+ 	height: 40px;
+}
+
+.form-group input {
+  
+  
+  padding: 0;
+  margin-left: 0;
+}
+
+.menu {
+  
+  width: 100%;
+  background: #152230;
+ 
+}
+
+.container {
+  
+  width: 1170px;
+  display: table;
+}
+
+.nav li.active {
+  
+  background-color: #1A77FF; 
+ 
+}
+
+.nav li a:hover {
+  
+  
+  background-color: #1A77FF;
+  
+}
+
+.nav li a {
+  
+  color: white;
+  
+}
+
+.main {
+  
+ background: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg");
+  width: 1903px;
+  height: 500px;
+  
+}
+
+
+.main .container .col-md-5 {
+  
+  padding: 40px;
+  color: white;
+  
+
+}
+
+.col-md-5 {
+  
+  width: 41%;
+  
+  
+}
+.main .container .col-md-5 h1 span {
+  
+  border-bottom: 5px solid #1a77ff;
+}
+
+
+.supporting .container .col-md-8 h1 {
+  
+  
+  border-bottom: 5px solid #1a77ff;
+}
+
+.supporting .container .col-md-4  h1 {
+  
+  border-bottom: 5px solid #1a77ff;
+  
+}
+
+.supporting .row .col-md-8 {
+  
+  background-color: white;
+  
+}
+
+
+.supporting .row .col-md-4 {
+  
+  
+  background-color: black;
+  color: white;
+  
+}
+
+.footer .container ul li {
+  
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  
+}
+.footer {
+  
+  background-color: black;
+  
+}
+
+.footer p {
+  
+  float: right;
+  margin: 0 0 10px;
+}
+
